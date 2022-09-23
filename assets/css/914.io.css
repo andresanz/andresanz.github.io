@@ -1,0 +1,196 @@
+:root {
+	--header-footer-divider: 2px red solid;
+	--main-margin-left: 20px;
+	--main-margin-right: 20px;
+	--main-margin-top: 20px;
+	--main-margin-bottom: 20px;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	font-family: krubregular !important;
+}
+
+.wrapper {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.header, .footer {
+	background: silver;
+}
+
+.content {
+	flex: 1;
+	overflow: auto;
+	background: pink;
+}
+
+.custom-borderbottom {
+	border-bottom: var(--header-footer-divider)
+}
+
+.custom-bordertop {
+	border-top: var(--header-footer-divider)
+}
+
+.custom-bodymargins {
+	margin-top: var(--main-margin-top);
+	margin-left: var(--main-margin-left);
+	margin-bottom: var(--main-margin-bottom);
+	margin-right: var(--main-margin-right);
+}
+
+.custom-navlink {
+	color: red !important;
+}
+
+@font-face {
+    font-family: 'krubregular';
+    src: url('/assets/fonts/krub/krub-regular-webfont.woff2') format('woff2'),
+	url('/assets/fonts/krub/krub-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oxygenbold';
+    src: url('/assets/fonts/oxygen/oxygen-bold-webfont.woff2') format('woff2'),
+	url('/assets/fonts/oxygen/oxygen-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oxygenlight';
+    src: url('/assets/fonts/oxygen/oxygen-light-webfont.woff2') format('woff2'),
+	url('/assets/fonts/oxygen/oxygen-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('/assets/fonts/ubuntu/ubuntu-regular-webfont.woff2') format('woff2'),
+	url('/assets/fonts/ubuntu/ubuntu-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntubold';
+    src: url('assets/fonts/ubuntu/ubuntu-bold-webfont.woff2') format('woff2'),
+	url('assets/fonts/ubuntu/ubuntu-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntubold_italic';
+    src: url('assets/fonts/ubuntu/ubuntu-bolditalic-webfont.woff2') format('woff2'),
+	url('assets/fonts/ubuntu/ubuntu-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntuitalic';
+    src: url('assets/fonts/ubuntu/ubuntu-italic-webfont.woff2') format('woff2'),
+	url('assets/fonts/ubuntu/ubuntu-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntulight';
+    src: url('assets/fonts/ubuntu/ubuntu-light-webfont.woff2') format('woff2'),
+	url('assets/fonts/ubuntu/ubuntu-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntulight_italic';
+    src: url('assets/fonts/ubuntu/ubuntu-lightitalic-webfont.woff2') format('woff2'),
+	url('assets/fonts/ubuntu/ubuntu-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntumedium';
+    src: url('assets/fonts/ubuntu/ubuntu-medium-webfont.woff2') format('woff2'),
+	url('assets/fonts/ubuntu/ubuntu-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntumedium_italic';
+    src: url('assets/fonts/ubuntu/ubuntu-mediumitalic-webfont.woff2') format('woff2'),
+	url('assets/fonts/ubuntu/ubuntu-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*
+	
+	html, body {
+	height: 100%;
+	margin: 0;
+	overflow-y:scroll;
+	font-size: 16px;
+	}
+	
+	.wrapper {
+	height: 100%;
+	width: 100%;
+	display: table;
+	}
+	
+	.header, .content, .footer {
+	display: table-row;
+	}
+	
+	.header, .footer {
+	background: silver;
+	}
+	
+	.inner {
+	display: table-cell;
+	}
+	
+	.content .inner {
+	height: 100%;
+	position: relative;
+	background: pink;
+	}
+	
+	.scrollable {
+	position: absolute;
+	left: 0; right: 0;
+	top: 0; bottom: 0;
+	overflow: auto;
+	}
+	
+	.as_bg {
+	background-image: url("assets/images/congruent_outline.png") !important;
+	background-repeat: repeat !important;
+	background-position: left top !important;
+	background-attachment: fixed !important;
+	}
+	
+	.custom-alignment {
+	padding-left: 6px;
+	}
+	
+	
+	.footer, .header {
+	color: #999999;
+	}
+	
+	
+*/

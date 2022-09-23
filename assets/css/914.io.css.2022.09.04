@@ -1,0 +1,61 @@
+//*
+			body{
+			background-color: #75cdff;
+			}
+			*//
+			
+			body,  a {
+			background-color: white;
+			line-height: 1.5em;
+			}
+			
+			
+			#wrapper{
+			background-color: white;
+			width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 80px;
+			border: 1px solid white;
+			    border-collapse:separate;
+    border-radius:6px;
+	
+			
+			}
+			
+			a{
+			text-decoration: none;
+			color: black;
+			}
+			
+			a:hover {
+			text-decoration: underline;
+			}
+			
+			
+			
+			h1 {
+			vertical-align: middle;
+			}		
+			
+				
+			th {
+			text-align:left;
+			padding-right:5em;
+			}
+			
+			img{
+			border: 0;
+			}
+			
+			table {
+			width: 100%;
+			margin: 20px 10px 20px 30px;
+
+			}
+			
+			#footer, #header {
+			text-align: center;
+			margin-bottom: 20px;
+			}
+			

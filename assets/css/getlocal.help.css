@@ -1,0 +1,11 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+.congruent_outline {
+	background-image: url("/assets/images/congruent_outline.png") !important;
+	background-repeat: repeat !important;
+	background-position: left top !important;
+	background-attachment: fixed !important;
+	}
